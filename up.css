@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+text-align: center;
+background-color: rgb(247, 199, 214);
+color: black;
+}
+#m{
+  text-decoration: none;
+  color: black;
+  background-color: pink;
+}
+.alert {
+    padding: 20px;
+    background-color: rgb(255, 230, 0); /* Red */
+    color: black;
+    margin-bottom: 15px;
+  }
+  a{
+      background-color: black;
+      color: white;
+      width: 100px;
+      height: 100px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+  
